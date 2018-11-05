@@ -7,25 +7,27 @@
         tools:context=".MainActivity" android:orientation="vertical">
 
     <TextView
+            android:text="VolleyService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    <TextView
             android:text="ABC News Thumbnail"
             android:layout_width="match_parent"
-            android:layout_height="20dp" android:id="@+id/textView"/>
-
-
+            android:layout_height="20dp"/>
 
     <com.android.volley.toolbox.NetworkImageView
-            android:id="@+id/networkImageView"
+            android:id="@+id/networkImageView1"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:background="@android:color/holo_blue_light"/>
 
-
     <TextView
             android:text="Image hosted on Google site"
             android:layout_width="match_parent"
-            android:layout_height="20dp" android:id="@+id/textView2"/>
-
+            android:layout_height="20dp"/>
 
     <com.android.volley.toolbox.NetworkImageView
             android:id="@+id/networkImageView2"
@@ -33,5 +35,37 @@
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:background="@android:color/holo_green_light"/>
+
+
+    <!--<TextView-->
+            <!--android:text="LoadImage Singleton"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20sp"-->
+            <!--android:gravity="center"/>-->
+    <!--<TextView-->
+            <!--android:text="ABC News Thumbnail"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="20dp"/>-->
+
+    <!--<com.android.volley.toolbox.NetworkImageView-->
+            <!--android:id="@+id/networkImageView3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@android:color/holo_blue_light"/>-->
+
+    <!--<TextView-->
+            <!--android:text="Image hosted on Google site"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="20dp"/>-->
+
+    <!--<com.android.volley.toolbox.NetworkImageView-->
+            <!--android:id="@+id/networkImageView4"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@android:color/holo_green_light"/>-->
+
 
 </LinearLayout>
