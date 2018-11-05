@@ -13,7 +13,6 @@ volley version = 1.1.1,  <br />
 
 This app loads 2 images using Volley, but 1 of them does not show up on Android Pie
 
-```
 First image:  <br />
 http://www.abc.net.au/news/image/4444678-4x3-140x105.jpg<br />
 (http://www.abc.net.au/news/image/4444678-4x3-140x105.jpg)
@@ -21,7 +20,7 @@ http://www.abc.net.au/news/image/4444678-4x3-140x105.jpg<br />
 Second image:  <br />
 https://sites.google.com/a/pressatgoogle.com/mooningoogleearth/_/rsrc/1247886477794/home/google-space-products/Google%20Sky%20for%20site.jpg?height=242&width=420<br />
 (https://sites.google.com/a/pressatgoogle.com/mooningoogleearth/_/rsrc/1247886477794/home/google-space-products/Google%20Sky%20for%20site.jpg?height=242&width=420)
-```
+
 
 Android 8.1: <br />
 
