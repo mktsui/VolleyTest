@@ -22,7 +22,7 @@
 
 
     <TextView
-            android:text="Google Logo"
+            android:text="Image hosted on Google site"
             android:layout_width="match_parent"
             android:layout_height="20dp" android:id="@+id/textView2"/>
 
