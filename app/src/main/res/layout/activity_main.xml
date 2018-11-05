@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical">
+
+    <TextView
+            android:text="ABC News Thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" android:id="@+id/textView"/>
+
+
+
+    <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/networkImageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/holo_blue_light"/>
+
+
+    <TextView
+            android:text="Google Logo"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" android:id="@+id/textView2"/>
+
+
+    <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/networkImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/holo_green_light"/>
+
+</LinearLayout>
