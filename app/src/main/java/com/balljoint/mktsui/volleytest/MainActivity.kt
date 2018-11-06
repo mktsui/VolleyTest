@@ -31,13 +31,11 @@ class MainActivity : AppCompatActivity() {
 
 
         // Use LoadImage Singleton to load images
-//        val mNetImg3 = findViewById(R.id.networkImageView3) as NetworkImageView
-//        val mNetImg4 = findViewById(R.id.networkImageView4) as NetworkImageView
+        val mNetImg3 = findViewById(R.id.networkImageView3) as NetworkImageView
+        val mNetImg4 = findViewById(R.id.networkImageView4) as NetworkImageView
 
-
-        // Unfortunately using imageLoader will have error
-//        mNetImg3.setImageUrl(imgURL, LoadImage.getInstance(this).imageLoader)
-//        mNetImg4.setImageUrl(imgURL2, LoadImage.getInstance(this).imageLoader)
+        mNetImg3.setImageUrl(imgURL, LoadImage.getInstance(this).imageLoader)
+        mNetImg4.setImageUrl(imgURL2, LoadImage.getInstance(this).imageLoader)
 
     }
 }
