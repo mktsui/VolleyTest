@@ -1,4 +1,14 @@
-# Volley Test
+# Update on 6 Nov 2018
+
+As pointed out by jpd236 in this [post], starting from Android API level 28, http connection will no longer supported by default.
+
+Therefore I have updated the app accordingly and added "abc.net.au" into whitelist, so the app is working fine for now.
+
+Check this [commit history].
+
+<br/><br/><br/><br/><br/><br/>
+
+# Previously
 
 It looks like Volley may not work correctly on Android Pie
 
@@ -30,3 +40,7 @@ Android 8.1: <br />
 Android 9.0 <br />
 
 ![a9](https://user-images.githubusercontent.com/654012/48005790-52a4d400-e14f-11e8-909d-0152f23712e9.png)
+
+
+[post]: https://github.com/google/volley/issues/235
+[commit history]: https://github.com/mktsui/VolleyTest/commit/7f6f5bf065de50792f1ef60bb4d9a0e57e869737#diff-a4a7c49a558393b9dae7c81d46f42aa2
